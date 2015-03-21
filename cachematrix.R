@@ -4,11 +4,11 @@
 ## Write a short comment describing this function
 
 ## > source('cachematrix.R')
-## > m <- makeCacheMatrix(matrix(c(2, 1, 1, 2), c(2, 2)))
+## > m <- makeCacheMatrix(matrix(c(2, 1, 0, 2), c(2, 2)))
 ## > cacheSolve(m)
 ## [,1] [,2]
 ## [1,]  0.5  0.0
-## [2,]  0.0  0.5
+## [2,]  -0.25  0.5
 
 ## Create a special "matrix", which is a list containing
 ## a function to
