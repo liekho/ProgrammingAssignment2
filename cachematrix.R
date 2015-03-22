@@ -1,8 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
 ## > source('cachematrix.R')
 ## > m <- makeCacheMatrix(matrix(c(2, 1, 0, 2), c(2, 2)))
 ## > cacheSolve(m)
@@ -34,9 +29,6 @@ makeCacheMatrix <- function(x = matrix()) {
     getinverse = getinverse
   )
 }
-
-
-## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
   i <- x$getinverse()
